@@ -25,7 +25,7 @@ form.addEventListener("submit", async (e) => {
   else {
     const error = await response.text();
     alert("Error 🪲: " + error);
-    console.log("Error 🪲: ", error);
+    console.log("Error ❌🪲❌: ", error);
   }
   hideSpinner();
 });
